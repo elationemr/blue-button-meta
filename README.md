@@ -1,18 +1,37 @@
-blue-button-meta
+Blue Button Meta
 ================
 
 Metadata about Blue Button format internal structures
 
-[![NPM](https://nodei.co/npm/blue-button-meta.png)](https://nodei.co/npm/blue-button-meta/)
+[![NPM](https://nodei.co/npm/@amida-tech/blue-button-meta.png)](https://nodei.co/npm/@amida-tech/blue-button-meta/)
 
 [![Build Status](https://travis-ci.org/amida-tech/blue-button-meta.svg)](https://travis-ci.org/amida-tech/blue-button-meta)
 [![Coverage Status](https://coveralls.io/repos/amida-tech/blue-button-meta/badge.png)](https://coveralls.io/r/amida-tech/blue-button-meta)
 
-##Usage
+## Quick up and running guide
+
+### Prerequisites
+
+- Node.js (v14.19+) and NPM
+- Grunt.js
+
+```sh
+# Install dependencies
+npm i
+
+# Install grunt
+npm i -g grunt
+
+# Test
+grunt
+
+```
+
+## Usage
 
 Various metadata is directly available
 ``` javascript
-var bbm = require("blue-button-meta");
+var bbm = require("@amida-tech/blue-button-meta");
 var CCDA = bbm.CCDA;
 
 //CCDA Document OID
